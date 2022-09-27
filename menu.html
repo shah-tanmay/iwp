@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>Indian Restaurant-Menu</title>
+        <link rel="icon" href="img/logo1.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css and js/style.css">
+    </head>
+    <body style="background-color: brown;">
+        <nav class="navbar navbar-inverse" id="header-nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"style="font-size:30px; color:brown" >
+                        <img src="img/logo1.png" alt="logo"style="height:50px;width:50px"class="pull-left visible-lg visible-md">
+                        <h3>Tanmays' Restaurant</h3></a>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="menu.html"style="font-size:20px;color:brown;text-align:center">
+                            <i style='font-size:24px;display:block'class='fas'>&#xf2e7;</i> Menu</a>
+                        </li>
+                        <li>
+                            <a href="about.html"style="font-size:20px;color:brown;text-align:center">
+                            <i style='font-size:24px;display:block'class="material-icons">&#xe000;</i>About Us</a>
+                        </li>
+                        <li>
+                            <a href="map.html"style="font-size:20px;color:brown;text-align:center">
+                            <i style="font-size:24px;display: block;" class="fa">&#xf041;</i>Map</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container bottom ">
+            <div class="del">
+                <p>For Free delivery contact:<br>1234567890</p>
+                <img src="img/PngItem_37779.png" alt="bike" class="bike">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 bottom">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/slide2.jpg" alt="Tiffen" class="blur">
+                                    <h3>Morning Tiffen</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Grab your Tiffen</h3>
+                                <p>6.00am-11.00am</p> 
+                                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#tiffen">Tiffen</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 bottom">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/slide3.jpeg" alt="Lunch" class="blur">
+                                <h3>Lunch</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Grab your Lunch</h3>
+                                <p>12.00noon-3.30pm</p>
+                                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#lunch">Lunch</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 bottom">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/slide5.jpg" alt="Dinner" class="blur">
+                                <h3>Dinner</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Grab your Dinner</h3>
+                                <p>7.00pm-10.00pm</p>
+                                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#dinner">Dinner</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 bottom">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/slide4.jpg" alt="Sancks" class="blur">
+                                <h3>Snacks and Sweet</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Grab your Snacksand Sweet</h3>
+                                <p>4.00pm-6.30pm</p>
+                                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#sands">Snacks and Sweets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 bottom">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/beverage.jpg" alt="beverage"class="blur">
+                                <h3>Beverage</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Grab your Drink</h3>
+                                <p>All time available</p>
+                                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#beverage">Beverage</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container bottom ">
+            <div class="del">
+                <p>For Free delivery contact:<br>1234567890</p>
+                <img src="img/PngItem_37779.png" alt="bike" class="bike">
+            </div>
+        </div>
+        <footer class="page-footer font-small special-color-dark pt-4 bg-footer">
+            <div class="container">
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                      <a class="btn-floating btn-fb mx-1" href="#">
+                        <i class="fab fa-facebook-f"> </i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="btn-floating btn-tw mx-1" href="#">
+                        <i class="fab fa-twitter"> </i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="btn-floating btn-gplus mx-1" href="#">
+                        <i class="fab fa-google-plus-g"> </i>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-copyright text-center py-3">© 2021 Copyright:
+                <a href="index.html"> IndianRestarurent.com</a>
+            </div>
+        </footer>
+        
+
+            <div class="modal fade" id="tiffen" role="dialog">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Menu-Morning Tiffen</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide2.jpg" alt="dosa"class="pull-left">
+                                                <p>Dosa</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide2.jpg" alt="idly" class="pull-left">
+                                                <p>Idly</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide2.jpg" alt="idly" class="pull-left">
+                                                <p>Poori</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide2.jpg" alt="idly" class="pull-left">
+                                                <p>Pongal</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide2.jpg" alt="idly" class="pull-left">
+                                                <p>Sevai</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide2.jpg" alt="idly" class="pull-left">
+                                                <p>Adai</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide2.jpg" alt="idly" class="pull-left">
+                                                <p>Rava Dosa</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h4 class="modal-title">For Delivery contact : 1234567890</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="lunch" role="dialog">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Menu-Lunch</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide3.jpeg" alt="dosa"class="pull-left">
+                                                <p>Dosa</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide3.jpeg" alt="idly" class="pull-left">
+                                                <p>Idly</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide3.jpeg" alt="idly" class="pull-left">
+                                                <p>Poori</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide3.jpeg" alt="idly" class="pull-left">
+                                                <p>Pongal</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide3.jpeg" alt="idly" class="pull-left">
+                                                <p>Sevai</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide3.jpeg" alt="idly" class="pull-left">
+                                                <p>Adai</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide3.jpeg" alt="idly" class="pull-left">
+                                                <p>Rava Dosa</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h4 class="modal-title">For Delivery contact : 1234567890</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="dinner" role="dialog">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Menu-Dinner</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide5.jpg" alt="dosa"class="pull-left">
+                                                <p>Dosa</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide5.jpg" alt="idly" class="pull-left">
+                                                <p>Idly</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide5.jpg" alt="idly" class="pull-left">
+                                                <p>Poori</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide5.jpg" alt="idly" class="pull-left">
+                                                <p>Pongal</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide5.jpg" alt="idly" class="pull-left">
+                                                <p>Sevai</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide5.jpg" alt="idly" class="pull-left">
+                                                <p>Adai</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide5.jpg" alt="idly" class="pull-left">
+                                                <p>Rava Dosa</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h4 class="modal-title">For Delivery contact : 1234567890</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="sands" role="dialog">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Menu-Snacks and Sweets</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide4.jpg" alt="dosa"class="pull-left">
+                                                <p>Dosa</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide4.jpg" alt="idly" class="pull-left">
+                                                <p>Idly</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide4.jpg" alt="idly" class="pull-left">
+                                                <p>Poori</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide4.jpg" alt="idly" class="pull-left">
+                                                <p>Pongal</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide4.jpg" alt="idly" class="pull-left">
+                                                <p>Sevai</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide4.jpg" alt="idly" class="pull-left">
+                                                <p>Adai</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/slide4.jpg" alt="idly" class="pull-left">
+                                                <p>Rava Dosa</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h4 class="modal-title">For Delivery contact : 1234567890</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="beverage" role="dialog">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Menu-Beverage</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/beverage.jpg" alt="dosa"class="pull-left">
+                                                <p>Dosa</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/beverage.jpg" alt="idly" class="pull-left">
+                                                <p>Idly</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/beverage.jpg" alt="idly" class="pull-left">
+                                                <p>Poori</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/beverage.jpg" alt="idly" class="pull-left">
+                                                <p>Pongal</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/beverage.jpg" alt="idly" class="pull-left">
+                                                <p>Sevai</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/beverage.jpg" alt="idly" class="pull-left">
+                                                <p>Adai</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="col-sm-8">
+                                            <div class="image">
+                                                <img src="img/beverage.jpg" alt="idly" class="pull-left">
+                                                <p>Rava Dosa</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p>Rs.xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h4 class="modal-title">For Delivery contact : 1234567890</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

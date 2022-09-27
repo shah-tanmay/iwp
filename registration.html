@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./css and js/registration.js"></script>
+    <title>IWP DA</title>
+</head>
+
+<body>
+    <div style="
+display: grid;
+place-items: center;
+height: 100vh;
+background-color: brown;
+font-size: 16px;
+">
+        <form method="get" name="loginform" onsubmit="event.preventDefault(); validateAllFormFields(); 
+validateEmail(); validatePhoneNumber()">
+            <h1>Registration Form</h1>
+            <label for="firstName">First Name: </label>
+            <input type="text" id="firstName" name="firstName" style="margin-bottom: 5px" placeholder="First Name" />
+            <br />
+            <label for="lastName">Last Name: </label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" ` style="margin-bottom: 5px" />
+            <br />
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="Email" required
+                style="margin-bottom: 5px; margin-left: 32px" onkeydown="onKeyDownForEmail()" />
+            <br />
+            <label for="registration">Registration <br />Number: </label>
+            <input for="registration" id="regestration" placeholder="Registration Number" required
+                style="margin-bottom: 5px; margin-left: 20px" />
+            <br />
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" placeholder="Password" required
+                style="margin-bottom: 5px; margin-left: 12px" />
+            <div>Password must be between 8 and 20 characters<br /> and which contains atleast one numeric
+                digit<br />and one
+                uppercase letter</div>
+            <br />
+            <label for="gender">Gender: </label>
+            <label for="male" style="margin-left: 30px">Male</label>
+            <input type="radio" id="male" name="Male" value="Male" style="margin-bottom: 5px" />
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="female" value="Female" style="margin-bottom: 5px" />
+            <br />
+            <label for="dateOfBirth">Date of Birth: </label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth" required style="margin-bottom: 5px" />
+            <br />
+            <label for="phoneNumber">Phone Number: </label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" required
+                style="margin-bottom: 5px; width: 135px" />
+            <br />
+            <label for="color">Favorite Color: </label>
+            <input type="color" id="color" name="color" required style="margin-bottom: 5px" />
+            <br />
+            <label for="vol">Favrotie Number: </label>
+            <input type="range" id="vol" name="vol" min="0" max="50" style="margin-bottom: 5px" />
+            <br />
+            <div style="display: grid; place-items: center">
+                <input type="submit" style="margin-top: 10px" />
+            </div>
+        </form>
+    </div>
+</body>
+
+</html
